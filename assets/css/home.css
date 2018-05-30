@@ -1,0 +1,246 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav{
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	background-color: black;
+}
+nav ul{
+	position: static;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	color: white;
+	text-decoration: none!important;
+	padding: 20px;
+	font-weight: bold;
+}
+nav ul li a.active,nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.togg{
+	width: 100%;
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: right;
+	display: none;
+}
+.togg span{
+	color:white;
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 5px;
+}
+@media(max-width: 770px){
+	.togg{
+		display: block;
+	}
+	nav{
+		padding: 0;
+	}
+	nav ul{
+		float: none;
+		text-align: center;
+		display: none;
+	}
+	nav ul.active{
+		display: block;
+		background-color: white
+	}
+	nav ul li{
+		display: block;
+	}
+	nav ul li a{
+		color: black;
+	}
+	nav ul li a:hover{
+		color: white;
+		background-color: black;
+	}
+	.logo{
+		display: none;
+	}
+	.logo2{
+		display: block;
+		float: left;
+
+	}
+
+	.apps{
+		width: 40%;
+		height: 40%;
+		float:center;
+		margin: 30% auto;
+}
+}
+.logo2{
+		width: 150px;
+		height: 70px;
+		margin-top: -20px;
+	}
+.logo{
+	width: 150px;
+	height: 70px;
+}
+.lo{
+	width: 250px;
+	height: 170px;
+}
+.ico{
+	width: 150px;
+	height: 150px;
+}
+
+.ico1{
+	width: 100px;
+	height: 100px;
+	/*background-color: #194fa8;*/
+}
+.cont{
+	height: 50vh;
+	background-color: white;
+}
+#aboutus{
+	text-align: center;
+}
+.ab{
+	background-color: grey;
+}
+#top{
+	height: 60vh;
+    width: 100%;
+    background-image: url(../img/ru8.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    font-family: Verdana,Geneva,sans-serif;
+    font-style: normal;
+}
+.sub{
+	color: black;
+	text-align: center;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: 30px;
+}
+.head{
+	color: black;
+	text-align: center;
+	margin: 15% auto;
+}
+.head2{
+	color:black;
+	text-align: center;
+	padding-top: 3%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+#whyus{
+	height: 50vh;
+    width: 100%;
+    padding: 2%;
+    background-color: #1B1D26;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    background-attachment: fixed;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal;
+}
+.why{
+	color: white;
+}
+.mi{
+	text-align: center;
+}
+.ru3{
+	height: 100%;
+	width: 100%;
+}
+.apps{
+	width: 40%;
+	height: 40%;
+	float:center;
+}
+.rus{
+	width: 100px;
+	height: 100px;
+	text-align: left;
+}
+.logof{
+	width: 200px;
+	height: 120px;
+	float: center;
+}
+
+.appsf{
+	padding-top: 5%;
+	width: 60%;
+	height: 60%;
+	float:center;
+}
+.fot{
+	padding-top: 10%;
+	float: center;
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-whatsapp{
+	color: black;
+}
+.f{
+	float: center;
+}
+.team {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.team b,
+.team h2,
+.team h4 {
+    
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+
+.team p {
+    
+    color: #737373;
+}
+
+.team img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #a0db8e;
+    color: #fff;
+}
+
+.team a:hover i {
+    
+    background-color: #709963;
+}

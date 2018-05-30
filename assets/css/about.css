@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav{
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	background-color: transparent;
+}
+nav ul{
+	position: static;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	color: white;
+	text-decoration: none!important;
+	padding: 20px;
+	font-weight: bold;
+}
+nav ul li a.active,nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.togg{
+	width: 100%;
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: right;
+	display: none;
+}
+.togg span{
+	color:white;
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 5px;
+}
+@media(max-width: 767px){
+	.togg{
+		display: block;
+	}
+	nav{
+		padding: 0;
+	}
+	nav ul{
+		float: none;
+		text-align: center;
+		display: none;
+	}
+	nav ul.active{
+		display: block;
+		background-color: white
+	}
+	nav ul li{
+		display: block;
+	}
+	nav ul li a{
+		color: black;
+	}
+	nav ul li a:hover{
+		color: white;
+		background-color: black
+	}
+	.logo{
+		display: none;
+	}
+}
+
+.logo{
+	width: 150px;
+	height: 70px;
+}
+#top{
+	height: 100vh;
+    width: 100%;
+    background-image: url(../img/ru7.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    font-family: Verdana,Geneva,sans-serif;
+    font-style: normal;
+}
+.head{
+	color: white;
+	text-align: center;
+	margin: 20% auto;
+}
+#about {
+	background-color: white;
+	font-family: Raleway;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: 300;
+	color: #435464;
+	height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.ab{
+	text-decoration: underline;
+}
+.display-2{
+	text-decoration: underline;
+}
+.team{
+	background-color: white;
+}
+.ico{
+	width: 125px;
+	height: 125px;
+}
+.row{
+	padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 4%;
+}
+.card-body{
+	padding: 0rem !important;
+}
+
+.btn{
+	background-color: white;
+}
+.port:hover{
+	background-color: #f9e830;
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-whatsapp{
+	color: black;
+}
+.f{
+	padding-top: 2%;
+	padding-left: 40%;
+	color: #1B1D26;
+}
