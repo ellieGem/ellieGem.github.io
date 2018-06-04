@@ -30,6 +30,9 @@ nav ul li a.active,nav ul li a:hover{
 	background-color: white;
 	color: black;
 }
+.fa-facebook,.fa-instagram,.fa-twitter{
+	color: black;
+}
 .togg{
 	width: 100%;
 	background-color: white;
