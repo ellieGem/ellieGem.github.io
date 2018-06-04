@@ -179,28 +179,6 @@ nav ul li a.active,nav ul li a:hover{
 	height: 100px;
 	text-align: left;
 }
-.logof{
-	width: 200px;
-	height: 120px;
-	float: center;
-}
-
-.appsf{
-	padding-top: 5%;
-	width: 60%;
-	height: 60%;
-	float:center;
-}
-.fot{
-	padding-top: 10%;
-	float: center;
-}
-.fa-facebook,.fa-twitter,.fa-instagram,.fa-whatsapp{
-	color: black;
-}
-.f{
-	float: center;
-}
 .team {
     
     padding: 50px 0 80px;
