@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway';
-	font-size: 22px;
+	font-size: 20px;
 }
  /*navbar*/
 nav{
@@ -226,7 +226,7 @@ nav ul li a.active,nav ul li a:hover{
 }
 
   /*Services*/
-#services{
+#How{
 	height: 50vh;
     width: 100%;
     padding: 2%;
@@ -237,7 +237,7 @@ nav ul li a.active,nav ul li a:hover{
     background-attachment: fixed;
     font-style: normal;
 }
-.serve{
+.how{
 	color: #1B1D26;
 }
 .ico2{
