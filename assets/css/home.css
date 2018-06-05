@@ -28,6 +28,10 @@ nav ul li a{
 	padding: 20px;
 	font-weight: bold;
 }
+
+nav ul li a.active {
+    background-color: #666;
+ }
 nav ul li a.active,nav ul li a:hover{
 	background-color: white;
 	color: black;

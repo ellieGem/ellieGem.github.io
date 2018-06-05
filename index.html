@@ -34,15 +34,15 @@
 		</div>
 		<ul>
 			<li><a href="#top" class="home-marker active">Home</a></li>
-       		<li><a href="#aboutus" class="about-marker">About Us</a></li>
+       		<li><a href="#aboutus" class="aboutus-marker">About Us</a></li>
         	<li><a href="#whyus" class="why-marker">Why Us</a></li>
         	<li><a href="#How" class="how-marker">How We Work</a></li>
         	<li><a href="#Services" class="services-marker">Services</a></li>
         	<li><a href="#contact" class="contact-marker">Contact</a></li>
 		</ul>
-		<!--<div style="clear: both"></div>-->
+		<div style="clear: both"></div>
 	</nav>
-	<div id="top">
+	<div id="top" class="home">
 		 <div class="display-5 head">
 			<a href=""><img class="apps  wow bounceInLeft" src="assets/img/and1.png"></a>
 			<a href=""><img class="apps wow bounceInRight" src="assets/img/app.png"></a>
@@ -54,7 +54,7 @@
 			<a href=""><img class="apps" src="assets/img/app.png"></a>
 			<img class="wow fadeInLeft rus" src="assets/img/rushiz.png">
 			</div> -->
-		<div id="aboutus" class="container"><br>
+		<div id="aboutus" class="aboutus container"><br>
 			<div class="row">
 				<div class="col-md-4 mi">
 					<img class="ico" src="assets/img/tar.png">
@@ -172,6 +172,29 @@
 					</div>
 				</div>
 		</div>
-		
+		<script type="text/javascript">
+
+			(function() {
+
+                var navLinks = $('nav ul li a'),
+                    navH = $('nav').height(),
+                    div = $('div'),
+                    documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    var currentScrollPos = documentEl.scrollTop();
+                    
+                    div.each(function() {
+                        var self = $(this);
+                        if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight()) ) {
+                            var targetClass = '.' + self.attr('class') + '-marker';
+                            navLinks.removeClass('active');
+                            $(targetClass).addClass('active');
+                        }
+                    });
+                    
+                });
+                })();
+		</script>
 </body>
 </html>
