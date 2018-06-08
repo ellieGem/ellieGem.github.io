@@ -17,6 +17,25 @@ nav ul{
 	padding: 0;
 	float: right;
 }
+footer{
+    width: 100%;
+    min-height: 400px;
+    bottom: 0;
+    background: grey;
+}
+.footer_fore{
+	height: 300px;
+	padding-top: 10px;
+}
+.footer_base{
+	width: 30%;
+	padding-top: 10px;
+}
+.footer_base ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
 nav ul li{
 	list-style: none;
 	display: inline-block;
@@ -36,7 +55,7 @@ nav ul li a.active,nav ul li a:hover{
 	background-color: white;
 	color: black;
 }
-.fa-facebook,.fa-instagram,.fa-twitter{
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-linkedin{
 	color: black;
 }
 .togg{
