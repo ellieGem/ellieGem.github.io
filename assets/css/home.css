@@ -19,22 +19,18 @@ nav ul{
 }
 footer{
     width: 100%;
+    display: block;
     min-height: 400px;
     bottom: 0;
     background: grey;
 }
-.footer_fore{
-	height: 300px;
-	padding-top: 10px;
+.UP{
+	text-align: center;
 }
-.footer_base{
-	width: 30%;
-	padding-top: 10px;
-}
-.footer_base ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding-right: 30px;
+.head2{
+	color: white;
+	text-align: center;
+	margin: 15% auto;
 }
 nav ul li{
 	list-style: none;
@@ -105,15 +101,17 @@ nav ul li a.active,nav ul li a:hover{
 	.logo2{
 		display: block;
 		float: left;
-
 	}
-
+	.twitter-timeline{
+		text-align: center;
+		width: 10%;
+	}
+}
 	.apps{
 		width: 40%;
 		height: 40%;
 		float:center;
-		margin: 30% auto;
-}
+		margin: 0 auto;
 }
 .logo2{
 		width: 150px;
@@ -165,7 +163,6 @@ nav ul li a.active,nav ul li a:hover{
 .head{
 	color: black;
 	text-align: center;
-	margin: 15% auto;
 }
 .head2{
 	color:black;
@@ -267,4 +264,28 @@ nav ul li a.active,nav ul li a:hover{
 	width: 100px;
 	height: 100px;
 	margin-bottom: 10px;
+}
+#exampleInputEmail1{
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border:none;
+	background-color: transparent;;
+	border-bottom: 2px solid black;
+}
+#exampleInputPassword1{
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border:none;
+	background-color: transparent;;
+	border-bottom: 2px solid black;
+}
+.submit{
+	width: 40%;
+	box-sizing: border-box;
+	background-color: transparent;
+	border: 2px solid black;
 }
