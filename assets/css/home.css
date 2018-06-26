@@ -22,13 +22,13 @@ footer{
     display: block;
     min-height: 400px;
     bottom: 0;
-    background: grey;
+    background-color: rgba(0, 0, 0, .2);
 }
 .UP{
 	text-align: center;
 }
 .head2{
-	color: white;
+	color: black;
 	text-align: center;
 	margin: 15% auto;
 }
@@ -53,6 +53,14 @@ nav ul li a.active,nav ul li a:hover{
 }
 .fa-facebook,.fa-instagram,.fa-twitter,.fa-linkedin{
 	color: black;
+	text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.4);
+	margin-left: 15px;
+	transition: all ease-in-out 150ms;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
+	text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+	transform: translate(0, -8);
 }
 .togg{
 	width: 100%;
@@ -149,7 +157,7 @@ nav ul li a.active,nav ul li a:hover{
 #top{
 	height: 60vh;
     width: 100%;
-    background-image: url(../img/ru8.jpg);
+    background-image: url(../img/hi.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -163,12 +171,12 @@ nav ul li a.active,nav ul li a:hover{
 .head{
 	color: black;
 	text-align: center;
-}
+}/*
 .head2{
-	color:black;
+	color:white;
 	text-align: center;
 	padding-top: 3%;
-}
+}*/
 #whyus{
 	height: 50vh;
     width: 100%;
@@ -268,7 +276,7 @@ nav ul li a.active,nav ul li a:hover{
 #exampleInputEmail1{
 	width: 60%;
 	padding: 12px 20px;
-	margin: 8px 0;
+	margin: 8px auto;
 	box-sizing: border-box;
 	border:none;
 	background-color: transparent;;
@@ -277,7 +285,7 @@ nav ul li a.active,nav ul li a:hover{
 #exampleInputPassword1{
 	width: 60%;
 	padding: 12px 20px;
-	margin: 8px 0;
+	margin: 8px auto;
 	box-sizing: border-box;
 	border:none;
 	background-color: transparent;;
