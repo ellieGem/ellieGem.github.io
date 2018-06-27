@@ -27,6 +27,16 @@ footer{
 .UP{
 	text-align: center;
 }
+.ig,.fb,.tw{
+	width: 30px;
+	height: 30px;
+}
+
+.ig:hover,.fb:hover,.tw:hover{
+	width: 40px;
+	height: 40px;
+	padding-left: 5px;
+}
 .head2{
 	color: black;
 	text-align: center;

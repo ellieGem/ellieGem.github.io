@@ -43,7 +43,7 @@
 		</ul>
 		<div style="clear: both"></div>
 	</nav>
-	<div id="top" class="home">
+	<section id="top" class="home">
 		 <div class="head">
 		 	<h1 class="head2 wow fadeInDown">COMING SOON<br>
 		 	<!-- <a href=""><img class="apps  wow bounceInLeft" src="assets/img/and1.png"></a>
@@ -52,14 +52,14 @@
 			<!-- <a href=""><img class="apps  wow bounceInLeft" src="assets/img/and1.png"></a>
 			<a href=""><img class="apps wow bounceInRight" src="assets/img/app.png"></a> -->
 			</div>
-	</div>
+	</section>
 			<!-- <div class="display-5 head">
 			<img class="lo" src="assets/img/fotl.png"><br>
 			<a href=""><img class="apps" src="assets/img/and1.png"></a>
 			<a href=""><img class="apps" src="assets/img/app.png"></a>
 			<img class="wow fadeInLeft rus" src="assets/img/rushiz.png">
 			</div> -->
-		<div id="aboutus" class="about container"><br>
+		<section id="aboutus" class="about container"><br>
 			<div class="row">
 				<div class="col-md-4 mi">
 					<img class="ico" src="assets/img/tar.png">
@@ -78,6 +78,7 @@
 					<p>Thousands of satisfied customer and ranked in top 100 startups</p>
 				</div>
 			</div>
+		</section>
 			<!-- <div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -86,7 +87,7 @@
 					</div>
 			</div> -->
 
-<div id="team" class="team">
+<section id="team" class="team">
     <div class="container">
     	<h2 class="wow fadeInUp display-3">Meet our team</h2>
         <div class="row">
@@ -124,10 +125,10 @@
             </div>
         </div>
     </div>
-</div>
-		</div><br>
+</section>
+		<br>
 
-	<div id="whyus">
+	<section id="whyus">
 		<h1 class="why">Why Choose Stork Drop</h1>
 		<div class="container">
 			<div class="row">
@@ -153,8 +154,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="How">
+	</section>
+	<section id="How">
 			<h1 class="how">How We Work</h1>
 				<div class="container">
 					<div class="row">
@@ -175,7 +176,7 @@
 						</div>
 					</div>
 				</div>
-		</div>
+		</section>
 		<div id="services">
 			<h1></h1>
 			<div class="container">
@@ -226,17 +227,18 @@
 				</div>
 				<div class="col-md-12">
 					<a href="#0">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                    <img class="ig" src="assets/img/fb.png">
                   </a>
               <a href="https://twitter.com/Stork_Drop">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <img class="tw" src="assets/img/tw.png">
                   </a>
               <a href="https://instagram.com/stork_drop">
-                     <i class="fab fa-instagram" aria-hidden="true"></i>
+                     <!-- <i class="fab fa-instagram" aria-hidden="true"></i> -->
+                     <img class="fb" src="assets/img/ig.png">
                   </a>
-              <a href="#0">
+              <!-- <a href="#0">
                     <i class="fab fa-linkedin" aria-hidden="true"></i>
-                   </a>
+                   </a> -->
 				</div>
 				<div class="col-md-12">
 					<span><b>
@@ -259,13 +261,13 @@
 
                 var navLinks = $('nav ul li a'),
                     navH = $('nav').height(),
-                    div = $('div'),
+                    section = $('section'),
                     documentEl = $(document);
                 
                 documentEl.on('scroll', function() {
                     var currentScrollPos = documentEl.scrollTop();
                     
-                    div.each(function() {
+                    section.each(function() {
                         var self = $(this);
                         if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight()) ) {
                             var targetClass = '.' + self.attr('class') + '-marker';
