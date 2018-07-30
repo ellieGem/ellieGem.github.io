@@ -17,13 +17,6 @@ nav ul{
 	padding: 0;
 	float: right;
 }
-footer{
-    width: 100%;
-    display: block;
-    min-height: 400px;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .2);
-}
 .UP{
 	text-align: center;
 }
@@ -41,9 +34,9 @@ footer{
 	color: black;
 	text-align: center;
 	margin: 20% auto;
-	font-size: 6rem;
-    font-weight: 300;
-    line-height: 1.2;
+	font-size: 6rem !important;
+    font-weight: 300 !important;
+    line-height: 1.2 !important;
 }
 nav ul li{
 	list-style: none;
@@ -63,6 +56,9 @@ nav ul li a.active {
 nav ul li a.active,nav ul li a:hover{
 	background-color: white;
 	color: black;
+}
+.button{
+	margin-bottom: 50%;
 }
 .fa-facebook,.fa-instagram,.fa-twitter,.fa-linkedin{
 	color: black;
@@ -176,7 +172,7 @@ nav ul li a.active,nav ul li a:hover{
 #top{
 	height: 60vh;
     width: 100%;
-    background-image: url(../img/hi2.jpg);
+    background-image: url(../img/head2.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -272,7 +268,7 @@ nav ul li a.active,nav ul li a:hover{
     background-color: #709963;
 }
 
-  /*Services*/
+  /*How we work*/
 #How{
 	height: 50vh;
     width: 100%;
@@ -287,10 +283,31 @@ nav ul li a.active,nav ul li a:hover{
 .how{
 	color: #1B1D26;
 }
+/*SERVICES*/
+#services{
+	height: 50vh;
+    width: 100%;
+    padding: 2%;
+    background-color:#1B1D26 ;
+    background-size: cover;
+    color: white;
+    display: table;
+    text-align: center;
+    background-attachment: fixed;
+    font-style: normal;
+}
 .ico2{
 	width: 100px;
 	height: 100px;
 	margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    min-height: 400px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .2);
 }
 #exampleInputEmail1{
 	width: 60%;
