@@ -172,7 +172,7 @@ nav ul li a.active,nav ul li a:hover{
 #top{
 	height: 60vh;
     width: 100%;
-    background-image: url(../img/head2.jpg);
+    background-image: url(../img/head.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
