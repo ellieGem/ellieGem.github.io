@@ -220,7 +220,7 @@ nav ul li a.active,nav ul li a:hover{
     background-attachment: fixed;
     font-style: normal;
 }
-.why{
+.why1{
 	color: white;
 }
 .mi{
@@ -296,8 +296,9 @@ nav ul li a.active,nav ul li a:hover{
     text-align: center;
     background-attachment: fixed;
     font-style: normal;
+    color: white;
 }
-.how{
+.how1{
 	color: #1B1D26;
 }
 /*SERVICES*/
